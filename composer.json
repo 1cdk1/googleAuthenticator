@@ -1,14 +1,14 @@
 {
     "name": "cdk/google-authenticator",
     "description": "create google-authenticator qrcode and verify code number",
-    "type": "I",
+    "type": "library",
     "require": {
         "php": ">=7.1.0"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Cdk\\GoogleAuthenticator\\": "src/"
+            "GoogleAuthenticator\\": "src/"
         }
     },
     "authors": [
